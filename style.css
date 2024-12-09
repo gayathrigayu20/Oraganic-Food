@@ -1,0 +1,207 @@
+
+
+
+
+#fd
+{
+	width:100%;
+	height:2100px;
+	display:grid;
+	grid-template-rows:15% 70% 15%;
+}
+
+header
+{
+	display:grid;
+	grid-template-rows:10% 80%;
+	grid-gap:1.5%;
+	background-image:url("veg.jpg");	
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+}
+header section
+{ 
+    
+	display:grid;
+	grid-template-columns:45% 45%;	
+}
+main
+{
+display:grid;
+grid-template-rows:35% 20% 35%;	
+}
+nav
+{
+	display:flex;
+	justify-content:right;
+	background-color:black;
+	position:sticky;
+	top:0px;
+}
+nav a
+{
+	width:140px;
+	
+	color:blue;
+	margin-right:10px;
+	font-size:25px;
+	border-radius:20px;
+	text-decoration:none;
+}
+nav a:hover
+{
+	color:pink;
+	text-decoration:underline;
+}
+#hs div
+{
+	margin-left:20px;
+	background:white;
+	border-radius:20px;
+
+	height:98%;
+}
+.hsd
+{
+	margin:40px;
+	color:#113d20;
+}
+#hs div h1
+{
+	font-size:30px;
+}
+
+#hs div p
+{
+	font-size:20px;
+}
+form
+{
+	padding:20px;
+	margin-left:25px;
+text-align:center;
+font-size:40px;
+color:black;
+font-weight:bolder;
+}
+input
+{
+	border-radius:20px;
+	width:100%;
+	height:30px;
+}
+input[type='search']
+{
+	font-size:20px;
+height:40px;
+}
+input[type='submit']
+{
+	font-size:25px;
+	width:60%;
+background-color:pink;
+color:white;
+height:40px;
+}
+input[type='search']::placeholder
+{
+text-align:center;	
+}
+#s1
+{
+	display:flex;
+	margin-left:20px;
+	justify-content:space-evenly;
+	margin-top:20px;
+}
+#s1 img
+{
+	margin-right:10px;
+}
+#s1 p
+{
+	font-size:25px;
+	text-align:center;
+	font-weight:bolder;
+	font-style:italic;
+	position:relative;
+	top:70px;
+}
+#s2
+{
+	display:flex;
+}
+#s2 figure img
+{
+	width:200px;
+	height:150px;
+	border-radius:20px;
+	padding-left:40px;
+}
+#s2 figure
+{
+	margin-top:2px;
+	margin-left:10px;
+	padding:10px;
+	border-radius:20px;
+	box-shadow:3px 3px black;	
+}
+input[value='Add To Cart']
+{
+	background:green;
+	color:white;
+	font-size:20px;
+}
+input[value='Add To Cart']:hover
+{
+	background:black;
+}
+video
+{
+	width:50%;
+	height:90%;
+	margin-top:5%;
+	border-radius:20px;
+	margin-left:50px;
+	float:left;
+	padding:10px;
+}
+#s3 p{
+	margin-top:5%;	
+	clear:right;
+	font-size:30px;
+	font-family:Bradley Hand ITC;
+	font-weight:bolder;
+	text-align:justify;
+}
+footer
+{
+	background:skyblue;
+	margin-top:50px;
+	color:black;
+	display:grid;
+	grid-template-rows:80% 10%;
+}
+footer section p
+{
+	text-align:center;
+	font-size:30px;
+}
+#fs1
+{
+	display:flex;
+	justify-content:space-evenly;
+margin-top:50px;	
+}
+li
+{
+	list-style-type:none;
+	font-size:20px;
+}
+
+
+
+
+
+
